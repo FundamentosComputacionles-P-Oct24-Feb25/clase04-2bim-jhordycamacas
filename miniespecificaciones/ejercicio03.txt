@@ -6,7 +6,8 @@
 6.      variable2 <-- 20
 7.      obtenerSuma(variable, variable2)
 8.      obtenerSuma(variable, 100)
-9.      obtenerSuma("variable", 100) // ojo, error...
+9.      obtenerSuma("variable", 100) // ojo, error, existe un error por que no hay correspondencia en el tipo de dato
+// es decir, el tipo de dato que espera el procedimiento es entero y se le envia una cadena, pr lo que dara error
 10.  fin funcion principal
 11.  // se define un método o función
 12.  funcion obtenerSuma(a, i; b, i)
@@ -20,4 +21,5 @@
 // 30
 // 110
 //
-EN ESTE CODIGO EXISTEN DOS PROCEDIMIENTOS POR QUE, LAS FUNCIONES TIENEN LA CARACTERISTICA DE QUE DEVUELVEN UN VALOR, Y AQUI FORMALMENE NINGUNA DEVUELVE UN VALOR POR LO TANTO SON PROCEDIMIENTOS, NO EXISTE NINGUNA FUNCION
+//EN ESTE CODIGO EXISTEN DOS PROCEDIMIENTOS POR QUE, LAS FUNCIONES TIENEN LA CARACTERISTICA DE QUE DEVUELVEN UN VALOR, 
+//Y AQUI FORMALMENE NINGUNA DEVUELVE UN VALOR POR LO TANTO SON PROCEDIMIENTOS, NO EXISTE NINGUNA FUNCION
