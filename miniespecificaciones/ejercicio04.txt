@@ -4,7 +4,7 @@
 4.      valorLimite, i[0-n]
 5.      cont, i[1-n]
 6.      valorLimite <-- 10
-7.      Para (cont <-- 1; cont <=10; cont++)
+7.      Para (cont <-- 1; cont <=10; 1)
 8.        obtenerTabla(cont, valorLimite) // (1, 10) //(2, 10)
 9.      FinPara
 10.  fin funcion principal 
